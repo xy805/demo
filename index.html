@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首页</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body ondragstart="return false">
+  <iframe id="frame-header" src="header.html" scrolling="No" noresize="noresize"></iframe>
+  <div class="content home style1">
+    <div class="content-top">
+      <video src="../res/01.mp4" autoplay muted loop="loop"></video>
+    </div>
+    <div class="content-middle">
+      <div class="hot-stations">
+        <div class="hot-stations-title">热门站点：</div>
+        <div class="stations-wrapper"></div>
+      </div>
+      <div class="section-content-middle">
+        <div id="pre" class="btn-left arrow"></div>
+        <div class="nav-container">
+          <ul></ul>
+        </div>
+        <div id="next" class="btn-right arrow"></div>
+      </div>
+    </div>
+    <div class="content-bottom">
+      <div class="content-bottom-header">
+        <!-- <div class="run-time">往经天路：7:00-21:05 往油坊桥：7:00-21:05</div> -->
+        <div class="run-time">
+          <div class="run-time-item displayed">
+            <div class="line-num-wrap">
+              <div class="line-num">2号线</div>
+              <div>首末车时间</div>
+            </div>
+            <div class="run-time-detail">
+              <div class="run-time-detail-line">往经天路：首6:26 末23:25</div>
+              <div class="run-time-detail-line">往油坊桥：首6:34 末23:34</div>
+            </div>
+          </div>
+          <div class="run-time-item" style="display:none;">
+            <div class="line-num-wrap">
+              <div class="line-num">3号线</div>
+              <div>首末车时间</div>
+            </div>
+            <div class="run-time-detail">
+              <div class="run-time-detail-line">往秣周东路：首6:35 末23:35</div>
+              <div class="run-time-detail-line">往林场：首6:37 末23:37</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="station-info">
+        <img src="../images/daxingong.png" alt="本站信息">
+      </div>
+    </div>
+  </div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/tScroll.js"></script>
+<script src="../js/index.js"></script>
+
+</html>
